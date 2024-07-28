@@ -51,7 +51,7 @@ const synthesize = async () => {
             }
         }, 500)
 
-        const response = await axios.post('http://127.0.0.1:8365/synthesize', {
+        const response = await axios.post('https://tts.80666888.xyz/synthesize', {
             text: text.value,
             voice: voice.value
         }, {
